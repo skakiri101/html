@@ -1,0 +1,87 @@
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;  
+}
+
+nav ul li {
+    background-color: rgb(56, 56, 56);
+    display: inline; 
+    width: 100px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px;                                                                                 
+}
+
+a { /* nav a or nav ul li a */
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    margin-top: 210px;
+    margin-bottom: 50px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+section li {
+    position: relative;
+    float: left;
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#allitem h1 {
+    color: rgb(255, 196, 0);
+}
+
+section li img {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 5;
+}
+
+.itemlist {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+section li:hover .itemlist {
+    opacity: 1;
+    transform: translateY(-200px);
+}
+
+#Combinationitem {
+    margin-left: 190px;
+}
+
+
+#completeitem img {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 5;
+}
+
+#completeitem .itemlist img {
+    width: 50px;
+    height: 50px;
+}
